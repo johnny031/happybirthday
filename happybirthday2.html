@@ -6,21 +6,51 @@
   </head>
   <style>
 
+  @media(min-width:600px){
+    .flower{
+      width:13%;
+      position:absolute;
+      top:16.2%;
+      left:27%;
+    }
+
+    h1{
+      font-family:DFKai-sb;
+      font-size:700%;
+      color:red;
+      position:absolute;
+      top:20%;
+      left:13%;
+      text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+  }
+  @media(max-width:599px) {
+    .flower{
+      width:18%;
+      position:absolute;
+      top:16.2%;
+      left:27%;
+    }
+
+    h1{
+      font-family:DFKai-sb;
+      font-size:300%;
+      color:red;
+      position:absolute;
+      top:30%;
+      left:13%;
+      text-shadow: black 0.1em 0.1em 0.2em;
+    }
+  }
+
     body{
       background-repeat:no-repeat;
       background-size: 100% 100%;
       height:100vh;
       overflow:hidden;
       }
-    h1{
-      font-family:DFKai-sb;
-      font-size:100px;
-      color:red;
-      position:absolute;
-      top:20%;
-      left:13%;
 
-    }
 
   </style>
 
@@ -28,7 +58,7 @@
 
       <h1>生日快樂!!!</h1>
       <a href="happybirthday.html">
-        <image src="flower2.jpg" alt="This is a flower" style="width:200px;position:absolute;top:16.2%;left:27%;">
+        <image  class="flower" src="flower2.jpg" alt="This is a flower">
       </a>
   </body>
 </html>
